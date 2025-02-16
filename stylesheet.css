@@ -15,11 +15,12 @@ a {
 
 .header {
     padding-top: 10px;
-    margin: 0px 80px 80px 80px;
+    margin: 0px 150px 80px 150px;
     display: flex;
 }
 
 .left-links {
+    font-weight: 900;
     color: white;
     display: flex;
     flex: 1 0 auto;
@@ -31,11 +32,49 @@ a {
 }
 
 .paragraph {
-    margin: 0 80px 0 80px;
+    margin: 0 160px 0 160px;
     display: flex;
 }
 
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: fit-content;
+}
+
 .p-header {
+    display: flex;
+    align-items: flex-start;
     font-weight: 900;
     font-size: 48px;
+    color: #f9faf8;
+    padding-bottom: 15px;
+}
+
+.p-paragraph {
+    color: #e5e7eb;
+    font-size: 18px;
+    flex: 1 0 100%;
+    padding-bottom: 15px;
+}
+
+.button {
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #3882f6;
+
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.placeholder-img {
+    display: flex;
+    flex: 1 0 50%;
+    width: 50%;
+    border: 2px solid white;
 }
