@@ -1,0 +1,41 @@
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+}
+
+a {
+    font-weight: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.initial {
+    background-color: #1f2937;
+}
+
+.header {
+    padding-top: 10px;
+    margin: 0px 80px 80px 80px;
+    display: flex;
+}
+
+.left-links {
+    color: white;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.right-links {
+    gap: 10px;
+    display: flex;
+}
+
+.paragraph {
+    margin: 0 80px 0 80px;
+    display: flex;
+}
+
+.p-header {
+    font-weight: 900;
+    font-size: 48px;
+}
