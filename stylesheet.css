@@ -103,7 +103,9 @@ p {
 .i-container {
     display: flex;
     padding: 0 250px 40px 250px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .quote-container {
@@ -128,13 +130,19 @@ p {
 
 .s-container {
     display: flex;
-    padding: 20px 120px 20px 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
     border-radius: 10px;
     background-color: #3882f6;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .s-container-text {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
+    min-width: min-content;
+    margin-right: 10px;
 }
 
 .s-header {
@@ -144,12 +152,14 @@ p {
 }
 
 .s-paragraph {
+    flex-wrap: wrap;
     padding-top: 5px;
     color: white;
     font-size: 14px;
 }
 
 .s-container-button {
+    height: max-content;
     color: white;
     border: 0;
     padding: 10px 30px 10px 30px;
